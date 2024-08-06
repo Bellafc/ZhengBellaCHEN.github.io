@@ -33,7 +33,7 @@ In Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems.
 Educational Technology & Society. [SSCI IF=4.0, 5 year IF=4.9, Corresponding Author, Status: Accepted]
 
 **Zheng Chen**, Ruiqiu Yao, Andrew Gillen<br>
-How Do Engineering Students Characterize Their Educational Experience on a Popular Social Media Platform Before and During the Covid-19 Pandemic?<br>
+*How Do Engineering Students Characterize Their Educational Experience on a Popular Social Media Platform Before and During the Covid-19 Pandemic?*<br>
 2022 ASEE Annual Conference & Exposition [PDF](https://sftp.asee.org/how-do-engineering-students-characterize-their-educational-experience-on-a-popular-social-media-platform-before-and-during-the-covid-19-pandemic)
 
 
