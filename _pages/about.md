@@ -10,6 +10,7 @@ redirect_from:
 Bella is a Ph.D. student at the Hong Kong University of Science and Technology (HKUST) starting in Fall 2024, under the guidance of Professor Bo Li. She earned her Bachelor's degree from the University of Hong Kong. Bella's research focuses on Human-AI interaction, aiming to bridge the gap between human real-life experiences and AI capabilities.
 
 · Exploration: Investigating the scenarios of Human-AI interaction across various human groups and AI applications. The goal is to understand human attitudes towards AI applications and to propose improvements for their design.
+
 · Application: Focusing on human-centered AI mentorship interactions, enabling industry experts to control AI with minimal coding.
 
 A data-driven personal website
