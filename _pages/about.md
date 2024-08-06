@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Bella is a Ph.D. student at the Hong Kong University of Science and Technology (HKUST) starting in Fall 2024, under the guidance of Professor Bo Li. She earned her Bachelor's degree from the University of Hong Kong. Bella's research focuses on Human-AI interaction, aiming to bridge the gap between human real-life experiences and AI capabilities.
+Bella is a Ph.D. student at the Hong Kong University of Science and Technology (HKUST) starting in Fall 2024, under the guidance of Professor [Bo Li](https://seng.hkust.edu.hk/about/people/faculty/bo-li). She earned her Bachelor's degree from the University of Hong Kong. Bella's research focuses on Human-AI interaction, aiming to bridge the gap between human real-life experiences and AI capabilities.
 
 **· Exploration**: Investigating the scenarios of Human-AI interaction across various human groups and AI applications. The goal is to understand human attitudes towards AI applications and to propose improvements for their design.
 
@@ -15,14 +15,11 @@ Bella is a Ph.D. student at the Hong Kong University of Science and Technology (
 
 News
 ======
-Aug 2024 - Bella participate in the HK CYBERPORT CUPP programme at Draper University in San Mateo, silicon valley. 
-
-Jul 2024 - As a PIC, Bella's Startup Project got HKSTP Ideation HKD $100,000 fund.
-
-May 2024 - Bella's first CHI conference, CHI24@Hawaii!
-
-Feb 2024 - Graduate from HKU.
-
+Aug 2024 - Bella participate in the [Hong Kong CUPP programme](https://cyberport.hk/en/cyberport-university-partnership-programme) at [Draper University](https://draperuniversity.com/) in San Mateo, Silicon Valley.<br>
+Jul 2024 - As a PIC, Bella's Startup Project got [HKSTP Ideation](https://www.hkstp.org/en/programmes/ideation) HKD $100,000 fund.<br>
+May 2024 - Bella's first CHI conference, [CHI24@Hawaii](https://programs.sigchi.org/chi/2024))!<br>
+Feb 2024 - Graduate from HKU.<br>
+Nov 2023 - Ph.D. offer from HKUST accepted.
 
 
 Publications
@@ -39,26 +36,4 @@ Educational Technology & Society. [SSCI IF=4.0, 5 year IF=4.9, Corresponding Aut
 How Do Engineering Students Characterize Their Educational Experience on a Popular Social Media Platform Before and During the Covid-19 Pandemic?<br>
 2022 ASEE Annual Conference & Exposition [PDF](https://sftp.asee.org/how-do-engineering-students-characterize-their-educational-experience-on-a-popular-social-media-platform-before-and-during-the-covid-19-pandemic)
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
-
-**Markdown generator**
-
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
