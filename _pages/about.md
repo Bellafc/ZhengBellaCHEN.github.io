@@ -27,11 +27,9 @@ Feb 2024 - Graduate from HKU.
 
 Publications
 ======
-Yue Deng, **Zheng Chen**, Changyang He, Zhicong Lu, Bo Li
-
-Persuasion or Insulting? Unpacking Discursive Strategies of Gender Debate in Everyday Feminism in China.
-
-In Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems. (CHI 2024)[PDF](https://hechangyang.com/papers/CHI24_genderDebate.pdf)
+Yue Deng, **Zheng Chen**, Changyang He, Zhicong Lu, Bo Li<br>
+*Persuasion or Insulting? Unpacking Discursive Strategies of Gender Debate in Everyday Feminism in China.*<br>
+In Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems. (CHI 2024) [PDF](https://hechangyang.com/papers/CHI24_genderDebate.pdf)
 
 
 Fork  by clicking the "fork" button in the top right. 
