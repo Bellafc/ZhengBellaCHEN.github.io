@@ -11,7 +11,7 @@ Bella is a Ph.D. student at the Hong Kong University of Science and Technology (
 
 \item \textbf{· Exploration:} Investigating the scenarios of Human-AI interaction across various human groups and AI applications. The goal is to understand human attitudes towards AI applications and to propose improvements for their design.
 
-· Application: Focusing on human-centered AI mentorship interactions, enabling industry experts to control AI with minimal coding.
+·Application: Focusing on human-centered AI mentorship interactions, enabling industry experts to control AI with minimal coding.
 
 News
 ======
