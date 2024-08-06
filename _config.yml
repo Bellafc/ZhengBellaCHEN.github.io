@@ -21,7 +21,7 @@ repository               : "https://bellafc.github.io/ZhengBellaCHEN.github.io/"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/picturebella.png"
+  avatar           : "picturebella.png"
   name             : "Zheng (Bella) CHEN"
   pronouns         : "She / her"
   bio              : "Building things for people"
