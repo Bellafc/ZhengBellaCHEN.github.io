@@ -31,11 +31,13 @@ Yue Deng, **Zheng Chen**, Changyang He, Zhicong Lu, Bo Li<br>
 *Persuasion or Insulting? Unpacking Discursive Strategies of Gender Debate in Everyday Feminism in China.*<br>
 In Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems. (CHI 2024) [PDF](https://hechangyang.com/papers/CHI24_genderDebate.pdf)
 
-Zheng Chen, Di Zou, Haoran Xie, Zhiyuan Pang<br>
+**Zheng Chen**, Di Zou, Haoran Xie, Zhiyuan Pang<br>
 *Facilitating University Admissions Using a Chatbot Based on Large Language Models with Retrieval-Augmented Generation*<br>
 Educational Technology & Society. [SSCI IF=4.0, 5 year IF=4.9, Corresponding Author, Status: Accepted]
 
-
+**Zheng Chen**, Ruiqiu Yao, Andrew Gillen<br>
+How Do Engineering Students Characterize Their Educational Experience on a Popular Social Media Platform Before and During the Covid-19 Pandemic?<br>
+2022 ASEE Annual Conference & Exposition [PDF](https://sftp.asee.org/how-do-engineering-students-characterize-their-educational-experience-on-a-popular-social-media-platform-before-and-during-the-covid-19-pandemic)
 
 Site-wide configuration
 ------
