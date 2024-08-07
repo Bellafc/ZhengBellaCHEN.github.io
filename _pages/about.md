@@ -15,7 +15,7 @@ Bella is a Ph.D. student at the Hong Kong University of Science and Technology (
 
 News
 ======
-Aug 2024 - Bella participate in the [Hong Kong CUPP programme](https://cyberport.hk/en/cyberport-university-partnership-programme) at [Draper University](https://draperuniversity.com/) in San Mateo, Silicon Valley.<br>
+Aug 2024 - Bella participates in the [Hong Kong CUPP programme](https://cyberport.hk/en/cyberport-university-partnership-programme) at [Draper University](https://draperuniversity.com/) in San Mateo, Silicon Valley.<br>
 Jul 2024 - As a PIC, Bella's Startup Project got [HKSTP Ideation](https://www.hkstp.org/en/programmes/ideation) HKD $100,000 fund.<br>
 May 2024 - Bella's first CHI conference, [CHI24@Hawaii](https://programs.sigchi.org/chi/2024))!<br>
 Feb 2024 - Graduate from HKU.<br>
