@@ -17,9 +17,9 @@ News
 ======
 Sep 2024 - Bella starts her Ph.D. study in HKUST.<br>
 Aug 2024 - Bella participates in the [Hong Kong CUPP programme](https://cyberport.hk/en/cyberport-university-partnership-programme) at [Draper University](https://draperuniversity.com/) in San Mateo, Silicon Valley, and wins HKD $100,000 fund.<br>
-Jul 2024 - As a PIC, Bella's Startup Project got [HKSTP Ideation](https://www.hkstp.org/en/programmes/ideation) HKD $100,000 fund.<br>
+Jul 2024 - As a PIC, Bella's Startup Project gets [HKSTP Ideation](https://www.hkstp.org/en/programmes/ideation) HKD $100,000 fund.<br>
 May 2024 - Bella's first CHI conference, [CHI24@Hawaii](https://programs.sigchi.org/chi/2024))!<br>
-Feb 2024 - Graduate from HKU.
+Feb 2024 - Graduates from HKU.
 
 
 Publications and Research
