@@ -34,7 +34,7 @@ In Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems.
 
 **Zheng Chen**, Di Zou, Haoran Xie, Zhiyuan Pang<br>
 *Facilitating University Admissions Using a Chatbot Based on Large Language Models with Retrieval-Augmented Generation*<br>
-Educational Technology & Society. [SSCI IF=4.0, 5 year IF=4.9, Corresponding Author, Status: Accepted] [PDF](https://www.jstor.org/stable/pdf/48791566.pdf)
+Educational Technology & Society. [SSCI IF=4.0, 5 year IF=4.9, Status: Accepted] [PDF](https://www.jstor.org/stable/pdf/48791566.pdf)
 
 **Zheng Chen**, Mohammad Salah, Mohammad Hamadaqa<br>
 *A Context-Driven Approach for Co-Auditing Smart Contracts with The Support of GPT-4 code interpreter*<br>
