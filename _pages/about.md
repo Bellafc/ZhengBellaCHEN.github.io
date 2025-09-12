@@ -57,5 +57,7 @@ Submitted to ICCP24 [PDF](https://arxiv.org/abs/2406.18075)
 Working Experiments
 ======
 Apr 2024 to Dec 2024 - Bella works in [Moffett AI](https://www.moffettai.com/) specializing in AI Agent for finance and law industry.
+
 May 2023 to Aug 2023 - Bella works in Montreal Polytechnique University as an researhc intern on vulnerabilities of Web 3 smart contracts.
+
 May 2022 to Aug 2022 - Bella works in World Vision Zambia as an intern on community technology development.
