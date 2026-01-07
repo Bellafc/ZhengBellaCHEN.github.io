@@ -23,15 +23,15 @@ Jun 2024 - Graduates from HKU majoring in Decision Analytics (Mathematics, Stati
 
 Publications and Research
 ======
-**Zheng Chen**, Yushi Feng, Jisheng Dang, Changyang He, Yue Deng, Hongxi Pu, Haoxuan Li, Bo Li
+**Zheng Chen**, Yushi Feng, Jisheng Dang, Changyang He, Yue Deng, Hongxi Pu, Haoxuan Li, Bo Li<br>
 *IPAD: Inverse Prompt for AI Detection--A Robust and Explainable LLM-Generated Text Detector*<br>
 The Thirty-ninth Annual Conference on Neural Information Processing Systems [PDF]([https://aclanthology.org/2025.knowllm-1.9.pdf](https://openreview.net/pdf?id=3JoQTGhUzz))
 
-**Zheng Chen**, Futian Jiang, Yue Deng, Changyang He, Bo Li
+**Zheng Chen**, Futian Jiang, Yue Deng, Changyang He, Bo Li<br>
 *Meetalk: Retrieval-Augmented and Adaptively Personalized Meeting Summarization with Knowledge Learning from User Corrections*<br>
 ACL 2025 Workshop KnowFM Long Paper [PDF](https://aclanthology.org/2025.knowllm-1.9.pdf)
 
-**Zheng Chen**, Zhaoxin Feng, Jianfei Ma, Jiexi Xu, Bo Li
+**Zheng Chen**, Zhaoxin Feng, Jianfei Ma, Jiexi Xu, Bo Li<br>
 *Can LLMs Recognize Their Own Analogical Hallucinations? Evaluating Uncertainty Estimation for Analogical Reasoning*<br>
 ACL 2025 Workshop KnowFM Long Paper [PDF](https://aclanthology.org/2025.knowllm-1.8.pdf)
 
