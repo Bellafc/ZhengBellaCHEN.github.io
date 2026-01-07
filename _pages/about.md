@@ -15,16 +15,18 @@ Bella is a Ph.D. student at the Hong Kong University of Science and Technology (
 
 News
 ======
-Jul 2025 - Bella's first ACL conference in Vienna! Come by and chat.<br>
+Dec 2025 - Bella's first NeurIPS conference in San Diego! Come by and chat.<br>
 Sep 2024 - Bella starts her Ph.D. study in HKUST.<br>
 Aug 2024 - Bella participates in the [Hong Kong CUPP programme](https://cyberport.hk/en/cyberport-university-partnership-programme) at [Draper University](https://draperuniversity.com/) in San Mateo, Silicon Valley, and wins HKD $100,000 fund.<br>
 Jul 2024 - As a PIC, Bella's Startup Project gets [HKSTP Ideation](https://www.hkstp.org/en/programmes/ideation) HKD $100,000 fund.<br>
 Jun 2024 - Graduates from HKU majoring in Decision Analytics (Mathematics, Statistics, and Computer Sciences) and Finance.
-May 2024 - Bella's first CHI conference, [CHI24@Hawaii](https://programs.sigchi.org/chi/2024))!<br>
-
 
 Publications and Research
 ======
+**Zheng Chen**, Yushi Feng, Jisheng Dang, Changyang He, Yue Deng, Hongxi Pu, Haoxuan Li, Bo Li
+*IPAD: Inverse Prompt for AI Detection--A Robust and Explainable LLM-Generated Text Detector*<br>
+The Thirty-ninth Annual Conference on Neural Information Processing Systems [PDF]([https://aclanthology.org/2025.knowllm-1.9.pdf](https://openreview.net/pdf?id=3JoQTGhUzz))
+
 **Zheng Chen**, Futian Jiang, Yue Deng, Changyang He, Bo Li
 *Meetalk: Retrieval-Augmented and Adaptively Personalized Meeting Summarization with Knowledge Learning from User Corrections*<br>
 ACL 2025 Workshop KnowFM Long Paper [PDF](https://aclanthology.org/2025.knowllm-1.9.pdf)
@@ -32,10 +34,6 @@ ACL 2025 Workshop KnowFM Long Paper [PDF](https://aclanthology.org/2025.knowllm-
 **Zheng Chen**, Zhaoxin Feng, Jianfei Ma, Jiexi Xu, Bo Li
 *Can LLMs Recognize Their Own Analogical Hallucinations? Evaluating Uncertainty Estimation for Analogical Reasoning*<br>
 ACL 2025 Workshop KnowFM Long Paper [PDF](https://aclanthology.org/2025.knowllm-1.8.pdf)
-
-**Zheng Chen**, Yushi Feng, Changyang He, Yue Deng, Hongxi Pu, Bo Li
-*IPAD: Inverse Prompt for AI Detection -- A Robust and Explainable LLM-Generated Text Detector*<br>
-Submitted to Neurips 2025 [PDF](https://arxiv.org/abs/2502.15902)
 
 Yue Deng, **Zheng Chen**, Changyang He, Zhicong Lu, Bo Li<br>
 *Persuasion or Insulting? Unpacking Discursive Strategies of Gender Debate in Everyday Feminism in China.*<br>
@@ -56,7 +54,7 @@ Submitted to ICCP24 [PDF](https://arxiv.org/abs/2406.18075)
 
 Working Experiments
 ======
-Apr 2024 to Dec 2024 - Bella works in [Moffett AI](https://www.moffettai.com/) specializing in AI Agent for finance and law industry.
+Apr 2024 to Dec 2024 - Bella works in [MXgent](mxgent.cn/#) specializing in AI Agent for finance and law industry.
 
 May 2023 to Aug 2023 - Bella works in Montreal Polytechnique University as an researhc intern on vulnerabilities of Web 3 smart contracts.
 
