@@ -2,60 +2,72 @@
 permalink: /
 title: "Zheng (Bella) CHEN"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-Bella is a Ph.D. student at the Hong Kong University of Science and Technology (HKUST) starting in Fall 2024, under the guidance of Professor [Bo Li](https://seng.hkust.edu.hk/about/people/faculty/bo-li). She earned her Science and Finance Bachelor's degree from the University of Hong Kong. Bella's research focuses on Human-AI interaction, aiming to bridge the gap between human real-life experiences and AI capabilities.
+**Zheng (Bella) Chen** is a Ph.D. student in Computer Science and Technology at the Hong Kong University of Science and Technology (HKUST), advised by Professor [Bo Li](https://seng.hkust.edu.hk/about/people/faculty/bo-li) (Sep 2024 – Dec 2027). She received her Bachelor of Science degree with a minor in Finance from the University of Hong Kong (2020–2024).
 
-**· Usable Explainable AI**: Transparent, interpretable, and interactive AI through mechanistical interpretation Transformer Tools.
+Bella’s research focuses on **Trustworthy and Controllable Large Language Models**, with particular interests in AI Agents, Large Reasoning Models, Explainable Machine Learning, and foundations-driven evaluation of activation steering methods. She aims to build multi-level, downstream-task-grounded benchmarks that rigorously assess effectiveness, side effects, robustness, and cross-model reliability under realistic usage goals.
 
-**· Trustworthy AI**: Ethical, fair, and reliable AI thourgh reasoning workflow design to facilitate AI usage in specific industries.
+### Research Themes
+- **LLM Steering & Controllability**: Foundations-oriented evaluation of activation steering across models, locations, and methods.
+- **Reasoning & Reliability**: Understanding and mitigating sycophancy, hallucinations, and logical inconsistencies in LLMs.
+- **Usable Explainable AI & Agents**: Transparent, controllable interventions for safer real-world deployment.
 
-News
-======
-Dec 2025 - Bella's first NeurIPS conference in San Diego! Come by and chat.<br>
-Sep 2024 - Bella starts her Ph.D. study in HKUST.<br>
-Aug 2024 - Bella participates in the [Hong Kong CUPP programme](https://cyberport.hk/en/cyberport-university-partnership-programme) at [Draper University](https://draperuniversity.com/) in San Mateo, Silicon Valley, and wins HKD $100,000 fund.<br>
-Jul 2024 - As a PIC, Bella's Startup Project gets [HKSTP Ideation](https://www.hkstp.org/en/programmes/ideation) HKD $100,000 fund.<br>
-Jun 2024 - Graduates from HKU majoring in Decision Analytics (Mathematics, Statistics, and Computer Sciences) and Finance.
+### News
+- **Jun–Sep 2026** – Summer Associate at J.P. Morgan Asset Management (Data Science Team).
+- **Dec 2025** – Attended NeurIPS 2025 in San Diego.
+- **Sep 2024** – Started Ph.D. at HKUST under Prof. Bo Li.
+- **2024** – Received HKD 100,000 from Cyberport Micro Fund and HKSTP Ideation Program.
 
-Publications and Research
-======
-**Zheng Chen**, Yushi Feng, Jisheng Dang, Changyang He, Yue Deng, Hongxi Pu, Haoxuan Li, Bo Li<br>
-*IPAD: Inverse Prompt for AI Detection--A Robust and Explainable LLM-Generated Text Detector*<br>
-The Thirty-ninth Annual Conference on Neural Information Processing Systems [PDF]([https://aclanthology.org/2025.knowllm-1.9.pdf](https://openreview.net/pdf?id=3JoQTGhUzz))
+### Selected Publications
+**Zheng Chen**, Zhaoxin Feng, Yip Tin Po, Jianfei Ma, Emmanuele Chersoni, Bo Li  
+*PCA-guided Activation Scaling for Monotonic Bidirectional Control over LLM Sycophancy*  
+COLM 2026 (Poster)
 
-**Zheng Chen**, Futian Jiang, Yue Deng, Changyang He, Bo Li<br>
-*Meetalk: Retrieval-Augmented and Adaptively Personalized Meeting Summarization with Knowledge Learning from User Corrections*<br>
-ACL 2025 Workshop KnowFM Long Paper [PDF](https://aclanthology.org/2025.knowllm-1.9.pdf)
+Zhaoxin Feng, **Zheng Chen**, Jianfei Ma, Yip Tin Po, Emmanuele Chersoni, Bo Li  
+*Good Arguments Against the People Pleasers: How Reasoning Mitigates (Yet Masks) LLM Sycophancy*  
+ACL 2026 (Poster)
 
-**Zheng Chen**, Zhaoxin Feng, Jianfei Ma, Jiexi Xu, Bo Li<br>
-*Can LLMs Recognize Their Own Analogical Hallucinations? Evaluating Uncertainty Estimation for Analogical Reasoning*<br>
-ACL 2025 Workshop KnowFM Long Paper [PDF](https://aclanthology.org/2025.knowllm-1.8.pdf)
+**Zheng Chen**, Chuan Zhou, Fengxiang Cheng, Yip Tin Po, ..., Bo Li, Zhouchen Lin  
+*LogiConBench: Benchmarking Logical Consistencies of LLMs*  
+ICLR 2026 (Poster)
 
-Yue Deng, **Zheng Chen**, Changyang He, Zhicong Lu, Bo Li<br>
-*Persuasion or Insulting? Unpacking Discursive Strategies of Gender Debate in Everyday Feminism in China.*<br>
-In Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems. (CHI 2024) [PDF](https://hechangyang.com/papers/CHI24_genderDebate.pdf)
+**Zheng Chen**, Yushi Feng, Changyang He, Yue Deng, Hongxi Pu, Bo Li  
+*IPAD: Inverse Prompt for AI Detection – A Robust and Interpretable LLM-Generated Text Detector*  
+NeurIPS 2025 (Poster)
 
-**Zheng Chen**, Di Zou, Haoran Xie, Zhiyuan Pang<br>
-*Facilitating University Admissions Using a Chatbot Based on Large Language Models with Retrieval-Augmented Generation*<br>
-Educational Technology & Society. [SSCI IF=4.0, 5 year IF=4.9, Status: Accepted] [PDF](https://www.jstor.org/stable/pdf/48791566.pdf)
+Dongqi Zuo, **Zheng Chen**, Chuan Zhou, Yandong Guo, Xiao He, Mingming Gong  
+*RADI: LLMs as World Models for Robotic Action Decomposition and Imagination*  
+ICLR 2025 Workshop
 
-**Zheng Chen**, Mohammad Salah, Mohammad Hamadaqa<br>
-*A Context-Driven Approach for Co-Auditing Smart Contracts with The Support of GPT-4 code interpreter*<br>
-Submitted to ICCP24 [PDF](https://arxiv.org/abs/2406.18075)
+**Zheng Chen**, Zhaoxin Feng, Jianfei Ma, Jiexi Xu, Bo Li  
+*Can LLMs Recognize Their Own Analogical Hallucinations? Evaluating Uncertainty Estimation for Analogical Reasoning*  
+ACL 2025 Workshop
 
-**Zheng Chen**, Ruiqiu Yao, Andrew Gillen<br>
-*How Do Engineering Students Characterize Their Educational Experience on a Popular Social Media Platform Before and During the Covid-19 Pandemic?*<br>
-2022 ASEE Annual Conference & Exposition [PDF](https://sftp.asee.org/how-do-engineering-students-characterize-their-educational-experience-on-a-popular-social-media-platform-before-and-during-the-covid-19-pandemic)
+**Zheng Chen**, Futian Jiang, Yue Deng, Changyang He, Bo Li  
+*Meetalk: Retrieval-Augmented and Adaptively Personalized Meeting Summarization with Knowledge Learning from User Corrections*  
+ACL 2025 Workshop
 
+Yue Deng, **Zheng Chen**, Changyang He, Zhicong Lu, Bo Li  
+*Persuasion or Insulting? Unpacking Discursive Strategies of Gender Debate in Everyday Feminism in China*  
+CHI 2024
 
-Working Experiments
-======
-Apr 2024 to Dec 2024 - Bella works in [MXgent](mxgent.cn/#) specializing in AI Agent for finance and law industry.
+### Industry Experience
+- **Jun – Sep 2026**: Summer Associate, Data Science Team, **J.P. Morgan Asset Management** (Hong Kong)  
+  Developed and evaluated agentic guardrail mechanisms for LLM-based agents, focusing on controllable safety interventions and reliable behavior constraints in financial applications.
 
-May 2023 to Aug 2023 - Bella works in Montreal Polytechnique University as an researhc intern on vulnerabilities of Web 3 smart contracts.
+- **Apr – Dec 2024**: AI Agent development for finance and law at MXgent.
 
-May 2022 to Aug 2022 - Bella works in World Vision Zambia as an intern on community technology development.
+### Leadership & Awards
+- Hong Kong Cyberport Micro Fund (HKD 100,000) for a personalized AI Agent tool (2024)
+- HKSTP Ideation Program Fund (HKD 100,000) (2024)
+- Laidlaw Scholar (UCL, 2021)
+- 3rd Place, Seoul WEGO Smart City Competition (2022)
+- Volunteer, World Vision Zambia (2022)
+
+### Skills
+**Programming & Tools**: Python, C++, SQL, PyTorch, Transformers, SAE Lens, RLHF (PPO, GRPO, DPO), LoRA/QLoRA, Git, Tableau, Power BI  
+**Languages**: Mandarin (Native), Cantonese (Native), English (IELTS 8), German (Basic)
