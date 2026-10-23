@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zheng (Bella) CHEN | Ph.D. Student @ HKUST</title>
+<style>
+  :root {
+    --primary: #003366;
+    --accent: #0a66c2;
+    --bg: #f7f8fa;
+    --card: #ffffff;
+    --text: #1f2937;
+    --muted: #6b7280;
+    --border: #e5e7eb;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+  nav {
+    background: var(--card);
+    border-bottom: 1px solid var(--border);
+    position: sticky; top: 0; z-index: 100;
+  }
+  .nav-inner {
+    max-width: 980px; margin: 0 auto; padding: 0.9rem 1.2rem;
+    display: flex; justify-content: space-between; align-items: center;
+  }
+  .nav-logo { font-weight: 700; color: var(--primary); text-decoration: none; font-size: 1.1rem; }
+  .nav-links { display: flex; gap: 1.5rem; }
+  .nav-links a { color: var(--text); text-decoration: none; font-size: 0.95rem; }
+  .nav-links a:hover, .nav-links a.active { color: var(--accent); }
+  .container { max-width: 980px; margin: 0 auto; padding: 2rem 1.2rem 4rem; }
+  header.hero {
+    display: flex; gap: 2rem; align-items: flex-start;
+    background: var(--card); padding: 2rem; border-radius: 16px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.08); margin-bottom: 2rem;
+  }
+  .photo {
+    width: 150px; height: 150px; border-radius: 50%; object-fit: cover;
+    border: 4px solid #eef2ff; flex-shrink: 0;
+  }
+  h1 { font-size: 1.9rem; color: var(--primary); margin-bottom: .2rem; }
+  .subtitle { color: var(--muted); font-size: 1rem; margin-bottom: .6rem; }
+  .contact { display: flex; flex-wrap: wrap; gap: .6rem 1.4rem; font-size: .92rem; }
+  .contact a { color: var(--accent); text-decoration: none; }
+  .contact a:hover { text-decoration: underline; }
+  section { margin-bottom: 2rem; }
+  h2 {
+    font-size: 1.3rem; color: var(--primary); margin-bottom: 1rem;
+    padding-bottom: .35rem; border-bottom: 2px solid var(--border);
+  }
+  .card {
+    background: var(--card); border-radius: 12px; padding: 1.2rem 1.4rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,.06);
+  }
+  .themes { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; }
+  .theme-card { background: var(--card); padding: 1.1rem; border-radius: 12px; box-shadow: 0 1px 3px rgba(0,0,0,.06); }
+  .theme-card h3 { font-size: 1rem; margin-bottom: .35rem; color: var(--primary); }
+  ul { padding-left: 1.15rem; }
+  li { margin-bottom: .35rem; }
+  footer { text-align: center; color: var(--muted); font-size: .82rem; margin-top: 2.5rem; }
+  @media (max-width: 640px) {
+    header.hero { flex-direction: column; align-items: center; text-align: center; }
+    .contact { justify-content: center; }
+    .nav-inner { flex-direction: column; gap: .6rem; }
+  }
+</style>
+</head>
+<body>
+<nav>
+  <div class="nav-inner">
+    <a class="nav-logo" href="index.html">Zheng (Bella) CHEN</a>
+    <div class="nav-links">
+      <a href="index.html" class="active">Home</a>
+      <a href="publications.html">Publications</a>
+      <a href="industry.html">Industry</a>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <header class="hero">
+    <img class="photo" src="https://bellafc.github.io/ZhengBellaCHEN.github.io/images/picturebella.png" alt="Zheng (Bella) CHEN">
+    <div>
+      <h1>Zheng (Bella) CHEN</h1>
+      <div class="subtitle">Ph.D. Student in Computer Science · HKUST<br>Advised by Prof. Bo Li</div>
+      <p style="margin-bottom:.7rem;">Research Interests: AI Agents, Large Reasoning Models, and Explainable Machine Learning.</p>
+      <div class="contact">
+        <span>📧 <a href="mailto:zchenin@connect.ust.hk">zchenin@connect.ust.hk</a></span>
+        <span>📱 +852 5536 3000</span>
+        <span>🔗 <a href="https://github.com/Bellafc" target="_blank">GitHub</a></span>
+        <span>🎓 <a href="https://scholar.google.com/citations?user=40VQElIAAAAJ" target="_blank">Google Scholar</a></span>
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <h2>About</h2>
+    <div class="card">
+      <p><strong>Zheng (Bella) Chen</strong> is a Ph.D. student in Computer Science and Technology at the Hong Kong University of Science and Technology (HKUST), supervised by Prof. Bo Li (Sep 2024 – Dec 2027). She received her Bachelor of Science degree with a minor in Finance from The University of Hong Kong (2020–2024).</p>
+      <p style="margin-top:.7rem;">Her research focuses on <strong>Trustworthy and Controllable Large Language Models</strong>, with particular interests in AI Agents, Large Reasoning Models, Explainable Machine Learning, and foundations-driven evaluation of activation steering methods. She aims to build multi-level, downstream-task-grounded benchmarks that rigorously assess effectiveness, side effects, robustness, and cross-model reliability.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Research Themes</h2>
+    <div class="themes">
+      <div class="theme-card">
+        <h3>LLM Steering & Controllability</h3>
+        <p>Foundations-oriented evaluation of activation steering across models, locations, and methods.</p>
+      </div>
+      <div class="theme-card">
+        <h3>Reasoning & Reliability</h3>
+        <p>Understanding and mitigating sycophancy, hallucinations, and logical inconsistencies in LLMs.</p>
+      </div>
+      <div class="theme-card">
+        <h3>Usable Explainable AI & Agents</h3>
+        <p>Transparent, controllable interventions for safer real-world deployment of AI systems.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>News</h2>
+    <div class="card">
+      <ul>
+        <li><strong>Jun–Sep 2026</strong> — Summer Associate at J.P. Morgan Asset Management (Data Science Team), Hong Kong.</li>
+        <li><strong>Dec 2025</strong> — Attended NeurIPS 2025 in San Diego.</li>
+        <li><strong>Sep 2024</strong> — Started Ph.D. at HKUST under Prof. Bo Li.</li>
+        <li><strong>2024</strong> — Received HKD 100,000 from Cyberport Micro Fund and HKSTP Ideation Program.</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 Zheng (Bella) CHEN · Last updated October 2026
+  </footer>
+</div>
+</body>
+</html>

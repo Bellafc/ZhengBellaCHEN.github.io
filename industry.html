@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Industry & Leadership | Zheng (Bella) CHEN</title>
+<style>
+  :root {
+    --primary: #003366;
+    --accent: #0a66c2;
+    --bg: #f7f8fa;
+    --card: #ffffff;
+    --text: #1f2937;
+    --muted: #6b7280;
+    --border: #e5e7eb;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+  nav {
+    background: var(--card);
+    border-bottom: 1px solid var(--border);
+    position: sticky; top: 0; z-index: 100;
+  }
+  .nav-inner {
+    max-width: 980px; margin: 0 auto; padding: 0.9rem 1.2rem;
+    display: flex; justify-content: space-between; align-items: center;
+  }
+  .nav-logo { font-weight: 700; color: var(--primary); text-decoration: none; font-size: 1.1rem; }
+  .nav-links { display: flex; gap: 1.5rem; }
+  .nav-links a { color: var(--text); text-decoration: none; font-size: 0.95rem; }
+  .nav-links a:hover, .nav-links a.active { color: var(--accent); }
+  .container { max-width: 980px; margin: 0 auto; padding: 2rem 1.2rem 4rem; }
+  h1 { font-size: 1.7rem; color: var(--primary); margin-bottom: 1.5rem; }
+  h2 {
+    font-size: 1.25rem; color: var(--primary); margin: 1.8rem 0 0.9rem;
+    padding-bottom: .3rem; border-bottom: 2px solid var(--border);
+  }
+  .card {
+    background: var(--card); border-radius: 12px; padding: 1.2rem 1.4rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,.06); margin-bottom: 1rem;
+  }
+  .role { font-weight: 600; margin-bottom: .2rem; }
+  .meta { color: var(--muted); font-size: .9rem; margin-bottom: .5rem; }
+  ul { padding-left: 1.15rem; }
+  li { margin-bottom: .4rem; }
+  footer { text-align: center; color: var(--muted); font-size: .82rem; margin-top: 2.5rem; }
+  @media (max-width: 640px) {
+    .nav-inner { flex-direction: column; gap: .6rem; }
+  }
+</style>
+</head>
+<body>
+<nav>
+  <div class="nav-inner">
+    <a class="nav-logo" href="index.html">Zheng (Bella) CHEN</a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="publications.html">Publications</a>
+      <a href="industry.html" class="active">Industry</a>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <h1>Industry & Leadership</h1>
+
+  <h2>Industry Experience</h2>
+  <div class="card">
+    <div class="role">J.P. Morgan Asset Management – Data Science Team</div>
+    <div class="meta">Summer Associate · Hong Kong · Jun – Sep 2026</div>
+    <p>Developed and evaluated agentic guardrail mechanisms for LLM-based agents, focusing on controllable safety interventions and reliable behavior constraints in financial applications.</p>
+  </div>
+
+  <h2>Leadership & Awards</h2>
+  <div class="card">
+    <ul>
+      <li>Selected for the Hong Kong Cyberport Micro Fund with HKD 100,000 for a personalized AI Agent tool (Mar–May 2024)</li>
+      <li>Received HKD 100,000 from the HKSTP Ideation Program Fund for a skiing safety device design (Jun–Sep 2024)</li>
+      <li>Volunteered in World Vision Zambia to improve the borehole system and community sanitation (May–Aug 2022)</li>
+      <li>Selected as a Laidlaw Scholar, conducted social media analytics research at UCL (Feb 2021)</li>
+    </ul>
+  </div>
+
+  <footer>
+    © 2026 Zheng (Bella) CHEN · Last updated October 2026
+  </footer>
+</div>
+</body>
+</html>
