@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Publications | Zheng (Bella) CHEN</title>
+<style>
+  :root {
+    --primary: #003366;
+    --accent: #0a66c2;
+    --bg: #f7f8fa;
+    --card: #ffffff;
+    --text: #1f2937;
+    --muted: #6b7280;
+    --border: #e5e7eb;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+  nav {
+    background: var(--card);
+    border-bottom: 1px solid var(--border);
+    position: sticky; top: 0; z-index: 100;
+  }
+  .nav-inner {
+    max-width: 980px; margin: 0 auto; padding: 0.9rem 1.2rem;
+    display: flex; justify-content: space-between; align-items: center;
+  }
+  .nav-logo { font-weight: 700; color: var(--primary); text-decoration: none; font-size: 1.1rem; }
+  .nav-links { display: flex; gap: 1.5rem; }
+  .nav-links a { color: var(--text); text-decoration: none; font-size: 0.95rem; }
+  .nav-links a:hover, .nav-links a.active { color: var(--accent); }
+  .container { max-width: 980px; margin: 0 auto; padding: 2rem 1.2rem 4rem; }
+  h1 { font-size: 1.7rem; color: var(--primary); margin-bottom: 1.5rem; }
+  h2 {
+    font-size: 1.25rem; color: var(--primary); margin: 1.8rem 0 0.9rem;
+    padding-bottom: .3rem; border-bottom: 2px solid var(--border);
+  }
+  .pub-card {
+    display: flex; gap: 1.2rem; background: var(--card); border-radius: 12px;
+    padding: 1.2rem; box-shadow: 0 1px 3px rgba(0,0,0,.06); margin-bottom: 1.1rem;
+    align-items: flex-start;
+  }
+  .pub-img {
+    width: 140px; height: 100px; object-fit: cover; border-radius: 8px;
+    flex-shrink: 0; background: #f1f5f9;
+  }
+  .pub-content { flex: 1; }
+  .pub-title { font-weight: 600; margin-bottom: .3rem; font-size: 1.05rem; }
+  .pub-title a { color: var(--primary); text-decoration: none; }
+  .pub-title a:hover { text-decoration: underline; }
+  .pub-authors { font-size: .88rem; color: var(--muted); margin-bottom: .4rem; }
+  .pub-desc { font-size: .92rem; color: #374151; margin-bottom: .5rem; }
+  .links { display: flex; gap: .6rem; flex-wrap: wrap; }
+  .links a {
+    font-size: .8rem; color: var(--accent); text-decoration: none;
+    background: #eff6ff; padding: .15rem .5rem; border-radius: 4px;
+  }
+  .links a:hover { background: #dbeafe; }
+  .badge {
+    display: inline-block; background: #e0e7ff; color: #1e40af; font-size: .72rem;
+    padding: .15rem .55rem; border-radius: 999px; margin-left: .4rem; vertical-align: middle;
+  }
+  .badge.under { background: #fef3c7; color: #92400e; }
+  .badge.workshop { background: #d1fae5; color: #065f46; }
+  footer { text-align: center; color: var(--muted); font-size: .82rem; margin-top: 2.5rem; }
+  @media (max-width: 640px) {
+    .nav-inner { flex-direction: column; gap: .6rem; }
+    .pub-card { flex-direction: column; }
+    .pub-img { width: 100%; height: 160px; }
+  }
+</style>
+</head>
+<body>
+<nav>
+  <div class="nav-inner">
+    <a class="nav-logo" href="index.html">Zheng (Bella) CHEN</a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="publications.html" class="active">Publications</a>
+      <a href="industry.html">Industry</a>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <h1>Publications</h1>
+
+  <h2>Main Conference</h2>
+
+  <div class="pub-card">
+    <img class="pub-img" src="images/good_arguments_fig1.png" alt="Figure 1: CoT and sycophancy">
+    <div class="pub-content">
+      <div class="pub-title">
+        <a href="https://arxiv.org/abs/2603.16643" target="_blank">Good Arguments Against the People Pleasers: How Reasoning Mitigates (Yet Masks) LLM Sycophancy</a>
+        <span class="badge">ACL 2026</span>
+      </div>
+      <div class="pub-authors">Zhaoxin Feng, <strong>Zheng Chen</strong>, Jianfei Ma, Yip Tin Po, Emmanuele Chersoni, Bo Li</div>
+      <div class="pub-desc">We study how Chain-of-Thought reasoning both reduces and masks sycophancy in LLMs. While CoT lowers sycophantic final answers, it can also hide bias through post-hoc rationalizations that contain logical inconsistencies or one-sided arguments. Mechanistic analysis shows sycophancy evolves dynamically during reasoning.</div>
+      <div class="links">
+        <a href="https://arxiv.org/abs/2603.16643" target="_blank">arXiv</a>
+        <a href="https://aclanthology.org/2026.acl-long.1126/" target="_blank">ACL Anthology</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="pub-card">
+    <img class="pub-img" src="images/pca_fig1.png" alt="Figure 1: Bidirectional sycophancy control">
+    <div class="pub-content">
+      <div class="pub-title">
+        <a href="https://arxiv.org/abs/2608.16650" target="_blank">PCA-guided Activation Scaling for Monotonic Bidirectional Control over LLM Sycophancy</a>
+        <span class="badge">COLM 2026</span>
+      </div>
+      <div class="pub-authors"><strong>Zheng Chen</strong>, Zhaoxin Feng, Yip Tin Po, Jianfei Ma, Emmanuele Chersoni, Bo Li</div>
+      <div class="pub-desc">We propose PCA-guided Activation Scaling (PAS) that decomposes residual stream activations into a sycophancy subspace and orthogonal residual, then applies asymmetric scaling for monotonic bidirectional control. Across models and datasets, PAS achieves strong monotonicity (Spearman ρ = +0.92) and larger shifts than baselines.</div>
+      <div class="links">
+        <a href="https://arxiv.org/abs/2608.16650" target="_blank">arXiv</a>
+        <a href="https://openreview.net/forum?id=zgeFI1uoea" target="_blank">OpenReview</a>
+        <a href="https://github.com/Bellafc/PCS" target="_blank">Code</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="pub-card">
+    <img class="pub-img" src="https://opengraph.githubassets.com/a78b16b6a2bf579f5d03307a255858525e70443fe99ab0f08064e5105e3a3687/bishwamittra/LLM_Logical_Consistency" alt="LogiConBench">
+    <div class="pub-content">
+      <div class="pub-title">
+        <a href="https://openreview.net/forum?id=ULEHJkolxB" target="_blank">LogicConBench: Benchmarking Logical Consistencies of LLMs</a>
+        <span class="badge">ICLR 2026</span>
+      </div>
+      <div class="pub-authors"><strong>Zheng Chen</strong>, Chuan Zhou, Fengxiang Cheng, Yip Tin Po, ..., Bo Li, Zhouchen Lin</div>
+      <div class="pub-desc">We introduce LogiConBench, a scalable benchmark that generates unlimited controllable-depth logical reasoning data with precise labels. It remains challenging for frontier LLMs—especially the enumerative task, where the best exact accuracy is only ~34%—enabling systematic evaluation of logical consistency.</div>
+      <div class="links">
+        <a href="https://openreview.net/forum?id=ULEHJkolxB" target="_blank">OpenReview</a>
+        <a href="https://github.com/Bellafc/LogiConBench" target="_blank">Code</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="pub-card">
+    <img class="pub-img" src="images/ipad_fig1.png" alt="Figure 1: IPAD framework">
+    <div class="pub-content">
+      <div class="pub-title">
+        <a href="https://arxiv.org/abs/2502.15902" target="_blank">IPAD: Inverse Prompt for AI Detection – A Robust and Interpretable LLM-Generated Text Detector</a>
+        <span class="badge">NeurIPS 2025</span>
+      </div>
+      <div class="pub-authors"><strong>Zheng Chen</strong>, Yushi Feng, Changyang He, Yue Deng, Hongxi Pu, Bo Li</div>
+      <div class="pub-desc">IPAD reconstructs the underlying prompt of an input text via a Prompt Inverter and verifies consistency with dual LLM-based distinguishers. It outperforms strong baselines on in-distribution, out-of-distribution, and attacked data while providing interpretable evidence for its decisions.</div>
+      <div class="links">
+        <a href="https://arxiv.org/abs/2502.15902" target="_blank">arXiv</a>
+        <a href="https://github.com/Bellafc/IPAD-Inver-Prompt-for-AI-Detection" target="_blank">Code</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="pub-card">
+    <img class="pub-img" src="images/persuasion_fig1.png" alt="Figure 1: Analytical flow">
+    <div class="pub-content">
+      <div class="pub-title">
+        <a href="https://arxiv.org/abs/2403.15985" target="_blank">Persuasion or Insulting? Unpacking Discursive Strategies of Gender Debate in Everyday Feminism in China</a>
+        <span class="badge">CHI 2024</span>
+      </div>
+      <div class="pub-authors">Yue Deng, <strong>Zheng Chen</strong>, Changyang He, Zhicong Lu, Bo Li</div>
+      <div class="pub-desc">We analyze discursive strategies in everyday feminist gender debates on Chinese social media using mixed methods on large-scale posts and comments. We identify a taxonomy of linguistic strategies and examine their effects on participation and response, offering design implications for more constructive online advocacy.</div>
+      <div class="links">
+        <a href="https://arxiv.org/abs/2403.15985" target="_blank">arXiv</a>
+        <a href="https://dl.acm.org/doi/10.1145/3613904.3642194" target="_blank">ACM DL</a>
+      </div>
+    </div>
+  </div>
+
+  <h2>Under Submission</h2>
+
+  <div class="pub-card">
+    <img class="pub-img" src="images/shape_peaks_fig1.png" alt="Shape-Change Peaks">
+    <div class="pub-content">
+      <div class="pub-title">
+        <a href="https://bellafc.github.io/shape_peak/" target="_blank">Where the Answer Takes Shape: Shape-Change Peaks Mark Computational Boundaries in LLMs</a>
+        <span class="badge under">Under Submission</span>
+      </div>
+      <div class="pub-authors"><strong>Zheng Chen</strong>, Jiayu An, Futian Jiang, Nitin Jain, Bo Li</div>
+      <div class="pub-desc">We propose a label-only shape-change signal that locates, without intervention, the layers where an LLM’s answer becomes controllable. Across six models and ten tasks, 71–83% of causal boundaries fall within one layer of these shape-change peaks.</div>
+      <div class="links">
+        <a href="https://bellafc.github.io/shape_peak/" target="_blank">Project Page</a>
+        <a href="https://github.com/Bellafc/shape_peak" target="_blank">Code</a>
+      </div>
+    </div>
+  </div>
+
+  <h2>Selected Workshop Papers</h2>
+
+  <div class="pub-card">
+    <img class="pub-img" src="https://openreview.net/pdf?id=cPo2iS6lwP" alt="RADI" style="object-fit: contain; background:#fff; padding:4px;">
+    <div class="pub-content">
+      <div class="pub-title">
+        <a href="https://openreview.net/forum?id=cPo2iS6lwP" target="_blank">RADI: LLMs as World Models for Robotic Action Decomposition and Imagination</a>
+        <span class="badge workshop">ICLR 2025 Workshop</span>
+      </div>
+      <div class="pub-authors">Dongqi Zuo, <strong>Zheng Chen</strong>, Chuan Zhou, Yandong Guo, Xiao He, Mingming Gong</div>
+      <div class="pub-desc">RADI enables LLMs to act as world models by decomposing complex robotic tasks into atomic actions and “imagining” environment state changes. This significantly improves planning success rates in VirtualHome by combining decomposition with self-reflective verification.</div>
+      <div class="links">
+        <a href="https://openreview.net/forum?id=cPo2iS6lwP" target="_blank">OpenReview</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="pub-card">
+    <img class="pub-img" src="https://aclanthology.org/thumb/2025.knowllm-1.8.jpg" alt="Analogical Hallucinations">
+    <div class="pub-content">
+      <div class="pub-title">
+        <a href="https://aclanthology.org/2025.knowllm-1.8/" target="_blank">Can LLMs Recognize Their Own Analogical Hallucinations? Evaluating Uncertainty Estimation for Analogical Reasoning</a>
+        <span class="badge workshop">ACL 2025 Workshop</span>
+      </div>
+      <div class="pub-authors"><strong>Zheng Chen</strong>, Zhaoxin Feng, Jianfei Ma, Jiexi Xu, Bo Li</div>
+      <div class="pub-desc">We evaluate black-box uncertainty estimation methods for detecting hallucinated analogy transfers in math and code. Kernel Language Entropy and Lexical Similarity reliably identify errors, and most uncertainty arises during the analogy transfer step rather than retrieval.</div>
+      <div class="links">
+        <a href="https://aclanthology.org/2025.knowllm-1.8/" target="_blank">ACL Anthology</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="pub-card">
+    <img class="pub-img" src="https://aclanthology.org/thumb/2025.knowllm-1.9.jpg" alt="Meetalk">
+    <div class="pub-content">
+      <div class="pub-title">
+        <a href="https://aclanthology.org/2025.knowllm-1.9/" target="_blank">Meetalk: Retrieval-Augmented and Adaptively Personalized Meeting Summarization with Knowledge Learning from User Corrections</a>
+        <span class="badge workshop">ACL 2025 Workshop</span>
+      </div>
+      <div class="pub-authors"><strong>Zheng Chen</strong>, Futian Jiang, Yue Deng, Changyang He, Bo Li</div>
+      <div class="pub-desc">Meetalk is a retrieval-augmented system that personalizes meeting summaries by learning from user corrections into structured knowledge bases (ToC, chapter allocation, writing style). In a real-world user study it outperforms an iFLYTEK ASR + GPT-4o baseline.</div>
+      <div class="links">
+        <a href="https://aclanthology.org/2025.knowllm-1.9/" target="_blank">ACL Anthology</a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    © 2026 Zheng (Bella) CHEN · Last updated October 2026
+  </footer>
+</div>
+</body>
+</html>
